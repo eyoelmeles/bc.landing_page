@@ -35,18 +35,21 @@ const Appbar = () => {
           } w-full block md:flex md:items-center md:w-auto`}
         >
           <div className="md:flex-grow">
-            <a className="block mt-4 md:inline-block md:mt-0 hover:underline mr-4">
+            <Link
+              href="/"
+              className="block mt-4 md:inline-block md:mt-0  mr-4 hover:text-gray-600"
+            >
               Home
-            </a>
+            </Link>
             <Link
               href="/features"
-              className="block mt-4 md:inline-block md:mt-0 hover:underline mr-4"
+              className="block mt-4 md:inline-block md:mt-0  mr-4 hover:text-gray-600"
             >
               Features
             </Link>
             <Link
-              href="/contact_us"
-              className="block mt-4 md:inline-block md:mt-0 hover:underline"
+              href="/contact"
+              className="block mt-4 md:inline-block md:mt-0  hover:text-gray-600"
             >
               Contact Us
             </Link>

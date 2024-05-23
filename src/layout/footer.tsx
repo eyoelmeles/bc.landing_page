@@ -28,30 +28,70 @@ const Footer = () => {
   // );
 
   return (
-    <footer className="">
+    <footer className="bg-gray-200">
       <div className="max-w-screen-xl p-4 py-6 lg:py-16 md:p-8 lg:p-10">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+        <div className="flex justify-between items-start">
           <div>
             <h3 className="mb-6 text-sm font-semibold uppercase">
               Build Connect
             </h3>
-            <ul className="text-gray-500 dark:text-gray-400">
+            <ul className="text-gray-500 dark:text-gray-400  pl-4">
               <li className="mb-4">
-                <Link href="/about_us" className="hover:underline">
+                <Link href="/about_us" className="hover:text-gray-900">
                   About Us
                 </Link>
               </li>
               <li className="mb-4">
-                <Link href="/contact_us" className="hover:underline">
+                <Link href="/contact_us" className="hover:text-gray-900">
                   Contact Us
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Help center
-            </h3>
+            <h3 className="mb-6 text-sm font-semibold uppercase">Features</h3>
+            <ul className="text-gray-500 dark:text-gray-400 pl-4">
+              <li className="mb-4">
+                <Link href="/contact_us" className="hover:text-gray-900">
+                  Work Order
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/contact_us" className="hover:text-gray-900">
+                  Create and Manage Reports
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/contact_us" className="hover:text-gray-900">
+                  Material and Equipment
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/about_us" className="hover:text-gray-900">
+                  File and Attachments
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/contact_us" className="hover:text-gray-900">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="mb-6 text-sm font-semibold uppercase">Company</h3>
+            <ul className="text-gray-500 dark:text-gray-400 pl-4">
+              <li className="mb-4">
+                <Link href="/about_us" className="hover:text-gray-900">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li className="mb-4">
+                <Link href="/contact_us" className="hover:text-gray-900">
+                  Terms and Use
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
